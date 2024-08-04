@@ -1,13 +1,34 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+  font-family: 'MangoRegular';
+  src: url('../src/assets/fonts/MangoDdobak-R\(ttf\).ttf');
+}
+
+@font-face {
+  font-family: 'MangoBold';
+  src: url('../src/assets/fonts/MangoDdobak-B\(ttf\).ttf');
+}
+
+@font-face {
+  font-family: 'MangoLight';
+  src: url('../src/assets/fonts/MangoDdobak-L\(ttf\).ttf');
+}
+
 body {
+  @apply font-sans;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bold {
+  @apply font-bold;
+}
+
+.light {
+  @apply font-light;
 }

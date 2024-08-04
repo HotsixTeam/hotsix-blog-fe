@@ -1,0 +1,160 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "author": "userName1",
+      "thumb": "https://cdn-icons-png.flaticon.com/512/1361/1361876.png",
+      "title": "First Post",
+      "description": "Content of the first post",
+      "createdAt": "2024-06-28T12:34:56.789Z",
+      "updatedAt": "2024-06-28T12:34:56.789Z",
+      "showStatus": false
+    },
+    {
+      "id": "2",
+      "author": "userName2",
+      "thumb": "",
+      "title": "Second Post",
+      "description": "Content of the second post",
+      "createdAt": "2024-06-28T12:34:56.789Z",
+      "updatedAt": "2024-06-28T12:34:56.789Z",
+      "showStatus": true
+    },
+    {
+      "id": "3",
+      "author": "userName1",
+      "thumb": "https://cdn-icons-png.flaticon.com/512/1361/1361876.png",
+      "title": "세번째",
+      "description": "Content of the first post",
+      "createdAt": "2024-06-28T12:34:56.789Z",
+      "updatedAt": "2024-06-28T12:34:56.789Z",
+      "showStatus": true
+    },
+    {
+      "id": "4",
+      "author": "userName1",
+      "thumb": "https://cdn-icons-png.flaticon.com/512/1361/1361876.png",
+      "title": "넷",
+      "description": "Content of the first post",
+      "createdAt": "2024-06-28T12:34:56.789Z",
+      "updatedAt": "2024-06-28T12:34:56.789Z",
+      "showStatus": true
+    },
+    {
+      "id": "5",
+      "author": "userName1",
+      "thumb": "https://cdn-icons-png.flaticon.com/512/1361/1361876.png",
+      "title": "다섯",
+      "description": "Content of the first post",
+      "createdAt": "2024-06-28T12:34:56.789Z",
+      "updatedAt": "2024-06-28T12:34:56.789Z",
+      "showStatus": true
+    },
+    {
+      "id": "6",
+      "author": "userName1",
+      "thumb": "https://cdn-icons-png.flaticon.com/512/1361/1361876.png",
+      "title": "여섯",
+      "description": "Content of the first post",
+      "createdAt": "2024-06-28T12:34:56.789Z",
+      "updatedAt": "2024-06-28T12:34:56.789Z",
+      "showStatus": true
+    },
+    {
+      "id": "7",
+      "author": "userName1",
+      "thumb": "https://cdn-icons-png.flaticon.com/512/1361/1361876.png",
+      "title": "일곱",
+      "description": "Content of the first post",
+      "createdAt": "2024-06-28T12:34:56.789Z",
+      "updatedAt": "2024-06-28T12:34:56.789Z",
+      "showStatus": true
+    },
+    {
+      "id": "8",
+      "author": "userName1",
+      "thumb": "https://cdn-icons-png.flaticon.com/512/1361/1361876.png",
+      "title": "8",
+      "description": "Content of the first post",
+      "createdAt": "2024-06-28T12:34:56.789Z",
+      "updatedAt": "2024-06-28T12:34:56.789Z",
+      "showStatus": true
+    },
+    {
+      "id": "9",
+      "author": "userName1",
+      "thumb": "https://cdn-icons-png.flaticon.com/512/1361/1361876.png",
+      "title": "9",
+      "description": "Content of the first post",
+      "createdAt": "2024-06-28T12:34:56.789Z",
+      "updatedAt": "2024-06-28T12:34:56.789Z",
+      "showStatus": true
+    },
+    {
+      "id": "10",
+      "author": "userName1",
+      "thumb": "https://cdn-icons-png.flaticon.com/512/1361/1361876.png",
+      "title": "10",
+      "description": "Content of the first post",
+      "createdAt": "2024-06-28T12:34:56.789Z",
+      "updatedAt": "2024-06-28T12:34:56.789Z",
+      "showStatus": true
+    },
+    {
+      "id": "11",
+      "author": "userName1",
+      "thumb": "https://cdn-icons-png.flaticon.com/512/1361/1361876.png",
+      "title": "11",
+      "description": "Content of the first post",
+      "createdAt": "2024-06-28T12:34:56.789Z",
+      "updatedAt": "2024-06-28T12:34:56.789Z",
+      "showStatus": true
+    },
+    {
+      "id": "12",
+      "author": "userName1",
+      "thumb": "https://cdn-icons-png.flaticon.com/512/1361/1361876.png",
+      "title": "12",
+      "description": "Content of the first post",
+      "createdAt": "2024-06-28T12:34:56.789Z",
+      "updatedAt": "2024-06-28T12:34:56.789Z",
+      "showStatus": true
+    },
+    {
+      "id": "13",
+      "author": "userName1",
+      "thumb": "https://cdn-icons-png.flaticon.com/512/1361/1361876.png",
+      "title": "13",
+      "description": "Content of the first post",
+      "createdAt": "2024-06-28T12:34:56.789Z",
+      "updatedAt": "2024-06-28T12:34:56.789Z",
+      "showStatus": true
+    },
+    {
+      "id": "14",
+      "author": "userName1",
+      "thumb": "https://cdn-icons-png.flaticon.com/512/1361/1361876.png",
+      "title": "14",
+      "description": "Content of the first post",
+      "createdAt": "2024-06-28T12:34:56.789Z",
+      "updatedAt": "2024-06-28T12:34:56.789Z",
+      "showStatus": true
+    },
+    {
+      "id": "15",
+      "author": "userName1",
+      "thumb": "https://cdn-icons-png.flaticon.com/512/1361/1361876.png",
+      "title": "15",
+      "description": "Content of the first post",
+      "createdAt": "2024-06-28T12:34:56.789Z",
+      "updatedAt": "2024-06-28T12:34:56.789Z",
+      "showStatus": true
+    }
+  ],
+  "pagination": {
+    "totalItems": 15,
+    "currentPage": 1,
+    "totalPages": 3,
+    "pageSize": 6
+  }
+}

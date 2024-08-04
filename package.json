@@ -1,20 +1,36 @@
 {
-  "name": "frontend",
+  "name": "client",
+  "proxy": "http://223.130.154.175:3000",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.99",
+    "@ant-design/icons": "^5.3.7",
+    "@tanstack/react-query": "^5.49.2",
+    "@tanstack/react-query-devtools": "^5.49.2",
+    "@testing-library/jest-dom": "^6.4.6",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.5",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
+    "@types/react-router-dom": "^5.3.3",
+    "@xeger/quill-image-actions": "^0.7.2",
+    "@xeger/quill-image-formats": "^0.7.2",
+    "axios": "^1.7.2",
+    "firebase": "^10.12.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-icons": "^5.2.1",
+    "react-intersection-observer": "^9.13.0",
+    "react-quill": "^2.0.0",
+    "react-router-dom": "^6.23.1",
     "react-scripts": "5.0.1",
+    "react-toastify": "^10.0.5",
+    "styled-components": "^6.1.11",
     "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^4.1.1",
+    "zustand": "^4.5.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -24,7 +40,8 @@
     "format": "prettier --check ./src",
     "format:fix": "prettier --write ./src",
     "lint": "eslint ./src",
-    "lint:fix": "eslint --fix ./src"
+    "lint:fix": "eslint --fix ./src",
+    "start-json-server": "json-server --watch db.json --port 5000"
   },
   "eslintConfig": {
     "extends": [
@@ -47,11 +64,17 @@
   "devDependencies": {
     "@eslint/compat": "^1.1.0",
     "@eslint/js": "^9.5.0",
-    "eslint": "^9.5.0",
+    "@typescript-eslint/eslint-plugin": "^7.13.1",
+    "@typescript-eslint/parser": "^7.13.1",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-react": "^7.34.2",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-react": "^7.34.3",
     "globals": "^15.6.0",
+    "postcss": "^8.4.38",
     "prettier": "^3.3.2",
+    "tailwindcss": "^3.4.4",
     "typescript-eslint": "^7.13.1"
   }
 }
